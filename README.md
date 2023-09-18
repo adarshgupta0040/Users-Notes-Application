@@ -4,6 +4,12 @@ Created a User-Notes App 📝 using SpringBoot and Angular in which user can per
 # Screenshot of Project 
 
 ![1](https://github.com/adarshgupta0040/Users-Notes-Application/assets/73924145/8b1ceacf-680a-474c-bb52-e98bf75a1d2b)
+![2](https://github.com/adarshgupta0040/Users-Notes-Application/assets/73924145/af5f4078-e747-4d31-be73-b06a45aaca75)
+![3](https://github.com/adarshgupta0040/Users-Notes-Application/assets/73924145/7653f2af-fe47-4ec1-9e42-16eb014270e0)
+![4](https://github.com/adarshgupta0040/Users-Notes-Application/assets/73924145/551862be-b57b-41ca-8249-1bbe4d96a4a1)
+![5](https://github.com/adarshgupta0040/Users-Notes-Application/assets/73924145/12fcb50c-45af-434e-b5de-1637db9fa693)
+![6](https://github.com/adarshgupta0040/Users-Notes-Application/assets/73924145/6c64d7f2-6079-43cf-b704-eddfa6b04cad)
+
 
 
 # Backend 
