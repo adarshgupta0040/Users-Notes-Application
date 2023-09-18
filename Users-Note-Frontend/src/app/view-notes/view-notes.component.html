@@ -1,0 +1,95 @@
+<!-- <div class="container">
+    <h3 class="my-3 text-center">Recent Notes Lists</h3>
+    <div class="container">
+        <table class="table table-striped mt-2">
+            <thead>
+              <tr>
+                <th scope="col">Content</th>
+                <th scope="col">Created At</th>
+                <th scope="col">Actions</th> 
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let note of notes">
+                <td>{{ note.content }}</td>
+                <td>{{ note.createdAt }}</td>
+                <td>
+                  <button class="btn btn-primary">View</button> 
+                  <button class="btn btn-warning">Delete</button> 
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    
+  </div> -->
+
+
+
+<!-- <div class="container">
+    <button class="btn btn-danger my-1" (click)="addNote()">Add Notes</button>
+    <h3 class="my-3 text-center">Recent Notes Lists</h3>
+    <div class="container">
+
+      <table class="table table-striped mt-2">
+        <thead>
+          <tr>
+            <th scope="col">Content</th>
+            <th scope="col" class="created-at-column">Created At</th> 
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let note of notes">
+            <td>{{ note.content }}</td>
+            <td class="created-at-column">{{ note.createdAt }}</td>
+            <td>
+              <button class="btn btn-primary mx-2" (click)="viewNote(note.content)">View</button>
+              <button class="btn btn-warning" (click)="delete(note.id,note.userId)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div> -->
+<div class="container">
+  <div class="row align-items-center">
+
+    <div class="col-4 text-start ">
+      <button class="btn btn-primary my-1" (click)="addNote()">Add Notes</button>
+    </div>
+    <div class="col-4">
+      <h3 class="my-3 text-center">Recent Notes Lists</h3>
+    </div>
+    <div class="col-4 text-end">
+      <!-- Assuming this is your logout button, adjust the class and click handler accordingly -->
+      <button class="btn btn-danger my-1" (click)="logout()">Logout</button>
+    </div>
+  </div>
+</div>
+
+<div class="container ">
+  <div class="tableDiv">
+    <div class="table-responsive">
+      <table class="table table-sm table-striped mt-2 align-middle">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">Content</th>
+            <th scope="col" class="created-at-column">Created At </th> <!-- Apply the CSS class here -->
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let note of notes">
+            <td>{{ note.content }}</td>
+            <td class="created-at-column">{{ note.createdAt }}</td> <!-- Apply the CSS class here -->
+            <td>
+              <button class="btn btn-primary " (click)="viewNote(note.content)">View</button>
+              <button class="btn btn-warning mx-2" (click)="delete(note.id,note.userId)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

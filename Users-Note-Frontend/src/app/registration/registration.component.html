@@ -1,0 +1,19 @@
+<div class="container my-5">
+    <h2>Registration form</h2>
+    <form>
+      <div class="form-group my-3">
+        <label class="my-1" for="email">Email : </label>
+        <input type="email" id="email" name="email" [(ngModel)]="email" class="form-control" required>
+      </div>
+      <div class="form-group my-3">
+        <label class="my-1" for="password">Password : </label>
+        <input type="password" id="password" name="password" [(ngModel)]="password" class="form-control" required>
+      </div>
+      <div class="form-group my-3">
+        <label class="my-1" for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" [(ngModel)]="confirmPassword" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="onSubmit()">Register</button>
+      <button type="reset" class="btn btn-warning mx-2">reset</button>
+    </form>
+  </div>

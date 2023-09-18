@@ -1,0 +1,22 @@
+<div class="container my-5">
+    <div class="mb-3">
+      <label for="content" class="form-label">Content *</label>
+      <textarea
+        class="form-control"
+        id="content"
+        name="content"
+        rows="5"
+        [(ngModel)]="content"
+        pattern="[a-zA-Z0-9@,;&*+-]+"
+        max="500"
+        required
+      ></textarea>
+      <b *ngIf="content === null || content.trim() === ''" class="text-danger">Content is required.</b>
+      <b *ngIf="errorMessage" class="text-danger">
+        {{ errorMessage }} (allowed special char @, ; & * + -)
+      </b>
+      <br>
+      <button class="btn btn-primary my-4" (click)="submit()">Submit</button>
+    </div>
+  </div>
+  
