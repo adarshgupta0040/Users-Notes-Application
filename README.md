@@ -1,5 +1,10 @@
 # Users-Notes-Application
-Created a User-Notes App using SpringBoot and Angular in which user can perform CRUD operations.
+Created a User-Notes App 📝 using SpringBoot and Angular in which user can perform CRUD operations.
+
+
+# Backend 
+
+First open User-Notes direction in your eclipse or any java IDE and create a Database with name usernotes then run the springboot project.
 
 # Test
 
