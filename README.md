@@ -1,6 +1,10 @@
 # Users-Notes-Application
 Created a User-Notes App 📝 using SpringBoot and Angular in which user can perform CRUD operations.
 
+# Screenshot of Project 
+
+![1](https://github.com/adarshgupta0040/Users-Notes-Application/assets/73924145/8b1ceacf-680a-474c-bb52-e98bf75a1d2b)
+
 
 # Backend 
 
@@ -33,3 +37,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
